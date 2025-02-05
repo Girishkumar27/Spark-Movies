@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SPARK MOVIES - Streaming Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="movie.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+  <link rel="stylesheet" href="script.js">
+  <link rel="stylesheet" href="navbar.js">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+          <div class="logo">
+            <a href=""><img src="spark logo.png" alt="" /></a>
+          </div>
+          <ul class="nav-list">
+            <div class="logo">
+              <a href=""><img src="spark logo.png" alt=""></a>
+              <button class="close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <li class="home"><a href="">HOME</a></li>
+            <li><a href="">MOVIES</a></li>
+            <li><a href="">TV SHOWS</a></li>
+            <li><a href="">WEB SERIES</a></li>
+            <li><a href="">PRICING</a></li>
+            <button class="btn">SIGN IN</button>
+          </ul>
+          <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+        </nav>
+      </header>
+      <section class="hero">
+        <div class="main">
+          <div class="content">
+            <p>SPARK MOVIES</p>
+            <h1>Unlimited <strong>Movie</strong>, TVs Shows, & More.</h1>
+            <div class="meta-wrapper">
+              <div class="badge">
+                <span>R 18+</span>
+                <span>HD</span>
+              </div>
+              <div class="genre">
+                <span><a href="">Action,</a> <a href="">Comedy</a></span>
+              </div>
+              <div class="date-time">
+                <span><i class="fa-solid fa-calendar-days"></i> 2024</span>
+                <span><i class="fa-regular fa-clock"></i> 2 HOURS 7 MINS </span>
+              </div>
+            </div>
+            <div class="watch-btn">
+              <button><i class="fa-solid fa-play"></i> Watch Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="new trailer">
+        <h4>LATEST TRAILER</h4>
+      </section>
+      <style>
+        .trailer{
+          font-family: 'Courier New', Courier, monospace;
+          color: #e2d703;
+          font-size: 30px;
+          text-align: center;
+          background-image: url(footer-bg.jpg);
+          height: 50px;
+        }
+        iframe {
+          display: block;
+          margin: 0 auto;
+          width: 800px;
+          height: 400px;
+        }
+      </style>
+      <iframe src="https://www.youtube.com/embed/hsoGpoDxyKg?si=JCeszkfAxbElCxtp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <section class="upcoming-movie">
+        <div class="header">
+          <div class="subtitle">
+            <small>online Streaming</small>
+            <h4>Upcoming Movies</h4>
+          </div>
+          <div class="buttons">
+            <button>Movies</button>
+            <button>TV Shows</button>
+            <button>Anime</button>
+          </div>
+        </div>
+        <div class="movie-card">
+          <div class="wrapper">
+            <ul class="movie-carousel">
+              <li class="card">
+                <div class="img">
+                  <a href="movie-detail.html"><img src="vi.jpg" alt="" /></a>
+                </div>
+                <div class="title">
+                  <a href="movie-detail.html">
+                    <h4>VidaaMuyarchi</h4>
+                  </a>
+                  <span>2025</span>
+                </div>
+                <div class="footer">
+                  <span>HD</span>
+                  <div class="time-rating">
+                    <span><i class="fa-regular fa-clock"></i>2 HOUR 30 MINS</span>
+                    <span><i class="fa-solid fa-star"></i>N/A</span>
+                  </div>
+                </div>
+              </li>
+              <li class="card">
+                <div class="img">
+                  <a href="movie-detail.html"><img src="jana nayagan" alt="" /></a>
+                </div>
+                <div class="title">
+                  <a href="movie-detail.html">
+                    <h4>Jana Nayagan</h4>
+                  </a>
+                  <span>2025</span>
+                </div>
+                <div class="footer">
+                  <span>4K</span>
+                  <div class="time-rating">
+                    <span><i class="fa-regular fa-clock"></i>N/A</span>
+                    <span><i class="fa-solid fa-star"></i> N/A</span>
+                  </div>
+                </div>
+              </li>
+              <li class="card">
+                <div class="img">
+                  <a href="movie-detail.html"><img src="captain.jpg" alt="" /></a>
+                </div>
+                <div class="title">
+                  <a href="movie-detail.html">
+                    <h4>Captain America</h4>
+                  </a>
+                  <span>2025</span>
+                </div>
+                <div class="footer">
+                  <span>2K</span>
+                  <div class="time-rating">
+                    <span><i class="fa-regular fa-clock"></i>1 HOUR 58 MINS</span>
+                    <span><i class="fa-solid fa-star"></i> N/A</span>
+                  </div>
+                </div>
+              </li>
+              <li class="card">
+                <div class="img">
+                  <a href="movie-detail.html"><img src="dragon.jpg" alt="" /></a>
+                </div>
+                <div class="title">
+                  <a href="movie-detail.html">
+                    <h4>Dragon</h4>
+                  </a>
+                  <span>2025</span>
+                </div>
+                <div class="footer">
+                  <span>HD</span>
+                  <div class="time-rating">
+                    <span><i class="fa-regular fa-clock"></i>N/A</span>
+                    <span><i class="fa-solid fa-star"></i> N/A</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="top-movie same">
+        <div class="header">
+          <small>online streaming</small>
+          <h4>Top Rated Movies</h4>
+        </div>
+        <div class="top-movie-main">
+          <div class="buttons">
+            <button>MOVIES</button>
+            <button>TV SHOWS</button>
+            <button>DOCUMENTARY</button>
+            <button>SPORTS</button>
+          </div>
+          <div class="movie-card">
+            <ul class="wrapper">
+              <li class="card">
+                <div class="img">
+                  <a href="movie-detail.html"><img src="marco 1.jpg" alt="" /></a>
+                </div>
+                <div class="title">
+                  <a href="movie-detail.html">
+                    <h4>MARCO</h4>
+                  </a>
+                  <span>2024</span>
+                </div>
+                <div class="footer">
+                  <span>2K</span>
+                  <div class="time-rating">
+                    <span><i class="fa-regular fa-clock"></i> 2 HOUR 25 MINS</span>
+                    <span><i class="fa-solid fa-star"></i> 7.4</span>
+                  </div>
+                </div>
+              </li>
+              <li class="card">
+                <div class="img">
+                  <a href="movie-detail.html"><img src="goat 1.jpg" alt="" /></a>
+                </div>
+                <div class="title">
+                  <a href="movie-detail.html">
+                    <h4>G.O.A.T</h4>
+                  </a>
+                  <span>2024</span>
+                </div>
+                <div class="footer">
+                  <span>HD</span>
+                  <div class="time-rating">
+                    <span><i class="fa-regular fa-clock"></i> 3 HOUR 3 MINS</span>
+                    <span><i class="fa-solid fa-star"></i> 5.8</span>
+                  </div>
+                </div>
+              </li>
+              <li class="card">
+                <div class="img">
+                  <a href="movie-detail.html"><img src="pushpa 1.jpg" alt="" /></a>
+                </div>
+                <div class="title">
+                  <a href="movie-detail.html">
+                    <h4>PUSHPA-2</h4>
+                  </a>
+                  <span>2024</span>
+                </div>
+                <div class="footer">
+                  <span>4K</span>
+                  <div class="time-rating">
+                    <span><i class="fa-regular fa-clock"></i> 3 HOUR 21 MINS</span>
+                    <span><i class="fa-solid fa-star"></i> 6.2</span>
+                  </div>
+                </div>
+              </li>
+              <li class="card">
+                <div class="img">
+                  <a href="movie-detail.html"><img src="movie-4.png" alt="" /></a>
+                </div>
+                <div class="title">
+                  <a href="movie-detail.html">
+                    <h4>FREE GUY</h4>
+                  </a>
+                  <span>2021</span>
+                </div>
+                <div class="footer">
+                  <span>4K</span>
+                  <div class="time-rating">
+                    <span><i class="fa-regular fa-clock"></i> 1 HOUR 55 MINS</span>
+                    <span><i class="fa-solid fa-star"></i> 7.1</span>
+                  </div>
+                </div>
+              </li>
+              <li class="card">
+                <div class="img">
+                  <a href="movie-detail.html"><img src="mufasa.jpg" alt="" /></a>
+                </div>
+                <div class="title">
+                  <a href="movie-detail.html">
+                    <h4>MUFASA: THE LION KING</h4>
+                  </a>
+                  <span>2024</span>
+                </div>
+                <div class="footer">
+                  <span>4K</span>
+                  <div class="time-rating">
+                    <span><i class="fa-regular fa-clock"></i>2 HOURS</span>
+                    <span><i class="fa-solid fa-star"></i> 6.7</span>
+                  </div>
+                </div>
+              </li>
+              <li class="card">
+                <div class="img">
+                  <a href="movie-detail.html"><img src="we live in time.jpg" alt="" /></a>
+                </div>
+                <div class="title">
+                  <a href="movie-detail.html">
+                    <h4>WE LIVE IN TIME</h4>
+                  </a>
+                  <span>2024</span>
+                </div>
+                <div class="footer">
+                  <span>HD</span>
+                  <div class="time-rating">
+                    <span><i class="fa-regular fa-clock"></i>1 HOUR 47 MINS</span>
+                    <span><i class="fa-solid fa-star"></i> 7.0</span>
+                  </div>
+                </div>
+              </li>
+              <li class="card">
+                <div class="img">
+                  <a href="movie-detail.html"><img src="leo 3.jpg" alt="" /></a>
+                </div>
+                <div class="title">
+                  <a href="movie-detail.html">
+                    <h4>LEO</h4>
+                  </a>
+                  <span>2023</span>
+                </div>
+                <div class="footer">
+                  <span>4K</span>
+                  <div class="time-rating">
+                    <span><i class="fa-regular fa-clock"></i>2 HOUR 44 MINS</span>
+                    <span><i class="fa-solid fa-star"></i>7.2</span>
+                  </div>
+                </div>
+              </li>
+              <li class="card">
+                <div class="img">
+                  <a href="movie-detail.html"><img src="it ends with us.jpg" alt="" /></a>
+                </div>
+                <div class="title">
+                  <a href="movie-detail.html">
+                    <h4>IT ENDS WITH US</h4>
+                  </a>
+                  <span>2024</span>
+                </div>
+                <div class="footer">
+                  <span>HD</span>
+                  <div class="time-rating">
+                    <span><i class="fa-regular fa-clock"></i> 2 HOUR 10 MINS</span>
+                    <span><i class="fa-solid fa-star"></i>6.4</span>
+                  </div>
+                </div>
+              </li>
+              <li class="card">
+                <div class="img">
+                  <a href="movie-detail.html"><img src="amaran 2.jpg" alt="" /></a>
+                </div>
+                <div class="title">
+                  <a href="movie-detail.html">
+                    <h4>AMARAN</h4>
+                  </a>
+                  <span>2024</span>
+                </div>
+                <div class="footer">
+                  <span>HD</span>
+                  <div class="time-rating">
+                    <span><i class="fa-regular fa-clock"></i>2 HOUR 47 MINS</span>
+                    <span><i class="fa-solid fa-star"></i>8.2</span>
+                  </div>
+                </div>
+              </li>
+              <li class="card">
+                <div class="img">
+                  <a href="movie-detail.html"><img src="premalu.jpg" alt="" /></a>
+                </div>
+                <div class="title">
+                  <a href="movie-detail.html">
+                    <h4>PREMALU</h4>
+                  </a>
+                  <span>2024</span>
+                </div>
+                <div class="footer">
+                  <span>HD</span>
+                  <div class="time-rating">
+                    <span><i class="fa-regular fa-clock"></i>2 HOUR 36 MINS</span>
+                    <span><i class="fa-solid fa-star"></i> 7.8</span>
+                  </div>
+                </div>
+              </li>
+              <li class="card">
+                <div class="img">
+                  <a href="movie-detail.html"><img src="boys 2.jpg" alt="" /></a>
+                </div>
+                <div class="title">
+                  <a href="movie-detail.html">
+                    <h4>MANJUMMEL BOYS</h4>
+                  </a>
+                  <span>2024</span>
+                </div>
+                <div class="footer">
+                  <span>HD</span>
+                  <div class="time-rating">
+                    <span><i class="fa-regular fa-clock"></i>2 HOUR 15 MINS</span>
+                    <span><i class="fa-solid fa-star"></i>8.2</span>
+                  </div>
+                </div>
+              </li>
+              <li class="card">
+                <div class="img">
+                  <a href="movie-detail.html"><img src="your fault.jpg" alt="" /></a>
+                </div>
+                <div class="title">
+                  <a href="movie-detail.html">
+                    <h4>YOUR FAULT</h4>
+                  </a>
+                  <span>2024</span>
+                </div>
+                <div class="footer">
+                  <span>HD</span>
+                  <div class="time-rating">
+                    <span><i class="fa-regular fa-clock"></i>1 HOUR 57 MINS</span>
+                    <span><i class="fa-solid fa-star"></i>5.2</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="tv-series same">
+        <div class="header">
+          <small>best tv series</small>
+          <h4>World Best TV Series</h4>
+        </div>
+        <div class="movie-card">
+          <ul class="wrapper">
+            <li class="card">
+              <div class="img">
+                <a href="movie-detail.html"><img src="the walking dead.jpg" alt="" /></a>
+              </div>
+              <div class="title">
+                <a href="movie-detail.html">
+                  <h4>The Walking Dead</h4>
+                </a>
+                <span>2022</span>
+              </div>
+              <div class="footer">
+                <span>2K</span>
+                <div class="time-rating">
+                  <span><i class="fa-regular fa-clock"></i>24 - Episode</span>
+                  <span><i class="fa-solid fa-star"></i> 8.1</span>
+                </div>
+              </div>
+            </li>
+            <li class="card">
+              <div class="img">
+                <a href="movie-detail.html"><img src="wednesday.jpg" alt="" /></a>
+              </div>
+              <div class="title">
+                <a href="movie-detail.html">
+                  <h4>wednesday</h4>
+                </a>
+                <span>2022</span>
+              </div>
+              <div class="footer">
+                <span>2K</span>
+                <div class="time-rating">
+                  <span><i class="fa-regular fa-clock"></i> 8 - Episode</span>
+                  <span><i class="fa-solid fa-star"></i> 8.0</span>
+                </div>
+              </div>
+            </li>
+            <li class="card">
+              <div class="img">
+                <a href="movie-detail.html"><img src="Stranger Things _ Netflix.jpeg" alt="" /></a>
+              </div>
+              <div class="title">
+                <a href="movie-detail.html">
+                  <h4>Stranger Things</h4>
+                </a>
+                <span>2025</span>
+              </div>
+              <div class="footer">
+                <span>2K</span>
+                <div class="time-rating">
+                  <span><i class="fa-regular fa-clock"></i>8 - Episode</span>
+                  <span><i class="fa-solid fa-star"></i> 8.7</span>
+                </div>
+              </div>
+            </li>
+            <li class="card">
+              <div class="img">
+                <a href="movie-detail.html"><img src="squid game.jpg" alt="" /></a>
+              </div>
+              <div class="title">
+                <a href="movie-detail.html">
+                  <h4>Squid Game -2</h4>
+                </a>
+                <span>2024</span>
+              </div>
+              <div class="footer">
+                <span>4K</span>
+                <div class="time-rating">
+                  <span><i class="fa-regular fa-clock"></i>7 - Episode</span>
+                  <span><i class="fa-solid fa-star"></i> 8.0</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="trial">
+        <div class="main">
+          <div class="content">
+            <h4>trial start first 30 days</h4>
+            <p>Enter your email to create or restart your membership.</p>
+          </div>
+          <div class="form">
+            <div class="input">
+              <input type="email" placeholder="Enter Your Email">
+              <button>get started</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="main">
+          <div class="footer-top">
+            <nav>
+              <div class="logo">
+                <img src="spark logo.png" alt="">
+              </div>
+              <ul class="list">
+                <li><a href="">home</a></li>
+                <li><a href="">movie</a></li>
+                <li><a href="">tv show</a></li>
+                <li><a href="">web series</a></li>
+                <li><a href="">pricing</a></li>
+              </ul>
+            </nav>
+            <hr>
+            <div class="links">
+              <div class="text-links">
+                <a href="">faq</a>
+                <a href="">help center</a>
+                <a href="">terms of use</a>
+                <a href="">privacy</a>
+              </div>
+              <div class="social-links">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="copyright">
+              <p>&#169; 2025 <a href="">Developergtm</a>. All Rights Reserved</p>
+            </div>
+            <div class="img">
+              <img src="footer-bottom-img.png" alt="">
+            </div>
+          </div>
+        </div>
+      </footer>
+  
+    </body>
+</html>
